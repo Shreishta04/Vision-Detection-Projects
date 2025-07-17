@@ -17,9 +17,9 @@ human_detected = False
 last_capture_time = 0
 capture_interval = 10
 
-FROM_EMAIL = "shreishtamanoj04@gmail.com"
-TO_EMAIL = "mca2456@rajagiri.edu"
-APP_PASSWORD = "kbml icpt hexc gtqy"
+FROM_EMAIL = "your email ID"
+TO_EMAIL = "receivers email ID "
+APP_PASSWORD = "generate from google app passwords"
 
 while cap.isOpened():
     ret, frame = cap.read()
