@@ -17,9 +17,9 @@ human_detected = False
 last_capture_time = 0
 capture_interval = 10
 
-FROM_EMAIL = "your email ID"
-TO_EMAIL = "receivers email ID "
-APP_PASSWORD = "generate from google app passwords"
+FROM_EMAIL = "" #sender's email ID
+TO_EMAIL = "" #receiver's email ID
+APP_PASSWORD = "" #generate from Google app passwords
 
 while cap.isOpened():
     ret, frame = cap.read()
